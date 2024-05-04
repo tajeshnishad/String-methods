@@ -1,0 +1,25 @@
+# strings are immutabel 
+name='Tajesh !!!! Sunny!!!!  Tajesh'
+print(name)
+print(len(name))
+print(name.upper())
+print(name.lower())
+print(name.rstrip ("!"))
+print(name.replace("Tajesh","Sunny"))
+
+sui = "Sunny!!?"
+print(sui.replace("Sunny","Tajesh"))
+print(sui.rstrip ("!"))
+print(sui.rstrip("?"))
+print(name.split(" "))
+
+a="welcome to python learning"
+print(a.capitalize()) #it converts first letter to capital and rest to small
+print(a.center(50))
+print(name.count("Tajesh"))
+
+b="Sunny001"
+print(b.isalnum())    #isalnum means A-Z,a-z,0-9
+print(b.isalpha())    #isalpha means A-Z,a-z
+print(b.islower())    
+print(b.isupper())    
